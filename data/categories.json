@@ -1,0 +1,19 @@
+[
+  {
+    "name": "color-splash",
+    "title": "1. Points",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Color Splash 🎨 ",
+    "examples": [],
+    "finished": true
+  },
+
+  {
+    "title": "30 Day Map Challenge 2023",
+    "type": "parent",
+    "name": "30-day-map-challenge-2023",
+    "description": " 2023 "
+  }
+]
