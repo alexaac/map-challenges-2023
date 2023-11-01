@@ -1,7 +1,5 @@
 import * as dat from '../../js/libs/lil-gui.module.min.js';
 
-console.log('00000000');
-
 /**
  * Debug
  */
@@ -33,13 +31,13 @@ const recreateApp = () => {
     //   transitionDuration: 100,
     // },
     onZoomStartFun: (event) => {
-      console.log('pan/zoom start', event);
+      // console.log('pan/zoom start', event);
     },
     onZoomFun: (event) => {
-      console.log('zoom', event);
+      // console.log('zoom', event);
     },
     onZoomEndFun: (event) => {
-      console.log('pan/zoom end', event);
+      // console.log('pan/zoom end', event);
     },
   })
     .setGeoCenter({ x: 5478447.750959396, y: 2642107.5246483684 })
