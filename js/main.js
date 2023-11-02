@@ -31,7 +31,7 @@ gui.addColor(parameters, 'materialColor').onChange(() => {
  * Base
  */
 // Canvas
-const canvas = document.querySelector('canvas.main-webgl');
+const canvas = document.querySelector('canvas.webgl');
 
 // Scene
 const scene = new THREE.Scene();
@@ -75,13 +75,9 @@ const data = await getData('./data/categories.json');
 
 data.forEach((elem, i) => {
   if (elem.parent) {
-    let demoLink = '';
-    if (elem.name === 'google-routes') {
-      demoLink = `https://maptheclouds.com/playground/30-day-map-challenge-2022/${elem.name}/dist/`;
-    } else {
-      demoLink = `https://maptheclouds.com/playground/30-day-map-challenge-2022/${elem.name}/`;
-    }
-    const demoImg = textureLoader.load(`./${elem.name}/img/og_1400_900.png`);
+    let demoLink = `https://maptheclouds.com/playground/30-day-map-challenge-2023/${elem.name}/`;
+
+    const demoImg = textureLoader.load(`./${elem.name}/img/og_1504_968.png`);
     const demoMp4 = `./${elem.name}/img/demo.mp4`;
 
     const section = document.createElement('section');

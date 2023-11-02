@@ -9,6 +9,16 @@
     "examples": [],
     "finished": true
   },
+  {
+    "name": "neon-streets",
+    "title": "2. Lines",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Neon Streets 🔹 ",
+    "examples": [],
+    "finished": true
+  },
 
   {
     "title": "30 Day Map Challenge 2023",
