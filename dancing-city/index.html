@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge 2023 Day 3. Polygons</title>
+
+    <meta property="og:title" content="#30DayMapChallenge 2023 Day 3. Polygons" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2022/dancing-city"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2022/dancing-city/img/og_1504_968.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1504" />
+    <meta property="og:image:height" content="968" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2022/dancing-city/img/og_1504_968.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/maptiler-geocoder.css" />
+    <link rel="stylesheet" href="../css/mapbox-gl-2.10.0.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+  </head>
+
+  <body>
+    <div class="nav--navigation">
+      <div class="nav--gridContainer">
+        <div class="nav--logo">
+          <h4>#30DayMapChallenge 2023</h4>
+          <div class="content--count">
+            <span>03</span>
+            <span style="background-color: rgb(58, 58, 64);"></span>
+            <span>30</span>
+          </div>
+        </div>
+        <div class="nav--navMenu" role="button" tabindex="0">
+          <h4>Day 3. Polygons</h4>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+    <div id="overlay">
+
+      <ul class="songs">
+        <li>Click on the songs to play them.
+          <ul id="list">
+            <li id="skull"><a href="#" data-value="bad_cat">'Bad Cat' by Skullbeatz (from ReverbNation)</a></li>
+            <li id="skull"><a href="#" data-value="my-lonely-journey">'My Lonely Journey' by AleXZavesa (from Pixabay)</a></li>
+            <li id="skull"><a href="#" data-value="epic">'Epic' (from Joystock)</a></li>
+            <li id="skull"><a href="#" data-value="let-it-snow-music-box">'Let it Snow Music Box' by Oleg Kirilkov (from Pixabay)</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <label class="input-label" for="audioInput">Or browse your favorite song...</label>
+      <input type="file" class="file" id="audioInput" accept="audio/*"/>
+      <div class="aud">         
+        <audio id="audioControls" controls="controls">
+          <source id="audioSource" src=""></source>
+          Your browser does not support the audio format.
+        </audio>
+      </div>
+
+    </div>
+    <div id="container"></div>
+
+    <div class="main--contentWrapper no-pointer-events">
+      <div class="content--page" style="color: rgb(41, 22, 16);">
+        <div class="content--fixedPageContent">
+          <div class="content--gridContainer">
+            <div class="content--contentWrapper">
+              <h1>
+                <span>Dancing</span>
+                <span>City</span>
+              </h1>
+              <div class="content--subCopy">
+                <div>
+                  <p>
+                    Playing: <strong><span id="song"></span></strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="side-pannel side-pannel--left">
+      <div class="control control-group">
+          <a id="animate" class="play-icon" href="#" title="Animate"></a>
+          <a id="stop-animation" class="pause-icon hidden" href="#" title="Stop"></a>
+      </div>
+    </div>
+
+    <div class="below">
+      <div>
+        <a href="https://threejs.org" target="_blank" rel="noopener noreferrer"
+        >Three.js</a
+      >
+      webaudio - visualizer<br />
+      </div>
+      <div><strong>Graphic: </strong> @maptheclouds</div>
+    </div>
+
+    <script src="./js/libs/m4.js"></script>
+    <script src="./js/libs/suncalc.js"></script>
+    <script src="./js/libs/mapbox-gl-2.10.0.js"></script>
+    <script src="../js/libs/maptiler-geocoder.js"></script>
+
+
+    <script type="module" src="./js/main.js"></script>
+    
+  </body>
+</html>

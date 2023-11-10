@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge 2023 Day 2. Lines</title>
+
+    <meta property="og:title" content="#30DayMapChallenge 2023 Day 2. Lines" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2023/2-lines"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2023/2-lines/img/og_1504_968.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="900" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2023/2-lines/img/og_1504_968.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/CSSRulePlugin.min.js"
+      integrity="sha512-0bzaetZStCnsUgbCtGVxftzF/L32PNOnrMlYLXwBOKl8cUjTSSDfJVyyJsNwGoI0iE0WUqni2eEfO35kJjFj5g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <div class="nav--navigation">
+      <div class="nav--gridContainer">
+        <div class="nav--logo">
+          <h4>#30DayMapChallenge 2023</h4>
+          <div class="content--count">
+            <span>02</span>
+            <span style="background-color: rgb(58, 58, 64)"></span>
+            <span>30</span>
+          </div>
+        </div>
+        <div class="nav--navMenu" role="button" tabindex="0">
+          <h3>Day 2. Lines</h3>
+        </div>
+      </div>
+    </div>
+    <div class="side-pannel side-pannel--left">
+      <div class="control control-group">
+        <a id="rotate-globe" class="play-icon" href="#" title="Rotate"></a>
+        <a id="stop-globe" class="pause-icon hidden" href="#" title="Stop"></a>
+      </div>
+    </div>
+
+    <canvas class="webgl" id="webgl"></canvas>
+    <div class="main--contentWrapper no-pointer-events">
+      <div class="content--page" style="color: rgb(41, 22, 16)">
+        <div class="content--fixedPageContent">
+          <div class="content--gridContainer">
+            <div class="content--contentWrapper">
+              <h1>
+                <span>Color splash</span>
+              </h1>
+
+              <div class="content--subCopy">
+                <div>
+                  <p>
+                    Population cells as randomly located points, with changeable
+                    density and color.
+                  </p>
+                  <p>
+                    Made using this amazing library,
+                    <a href="https://eurostat.github.io/gridviz/">Gridviz</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="below">
+      <div>
+        <strong>Data: </strong>
+        <a
+          href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography/geostat#geostat11"
+          >Eurostat population grid</a
+        >,
+      </div>
+      <div><strong>Graphic: </strong> @maptheclouds</div>
+    </div>
+
+    <script type="x-shader/x-vertex" id="vertexshader">
+
+      varying vec2 vUv;
+
+      void main() {
+
+        vUv = uv;
+
+        gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+
+      }
+    </script>
+    <script type="x-shader/x-fragment" id="fragmentshader">
+
+      uniform sampler2D baseTexture;
+      uniform sampler2D bloomTexture;
+
+      varying vec2 vUv;
+
+      void main() {
+
+        gl_FragColor = ( texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
+
+      }
+    </script>
+
+    <script src="./js/gridviz.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gridviz-eurostat@1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "tracks_bbox",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "AAA_SP360_2023", "cmt": null, "desc": null, "src": null, "link1_href": null, "link1_text": null, "link1_type": null, "link2_href": null, "link2_text": null, "link2_type": null, "number": null, "type": null, "gpxx_TrackExtension": "        <gpxx:DisplayColor>Blue<\/gpxx:DisplayColor>      ", "bbox": null, "width": 1.607349, "height": 0.51598, "area": 0.82936, "perimeter": 4.246658 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 6.7714, 46.01769 ], [ 8.378749, 46.01769 ], [ 8.378749, 46.53367 ], [ 6.7714, 46.53367 ], [ 6.7714, 46.01769 ] ] ] } }
+]
+}
