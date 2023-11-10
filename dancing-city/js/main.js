@@ -212,8 +212,6 @@ map.addControl(new searchControl(), 'top-right');
 parameters.initialTime = new Date().getTime();
 // setInterval(onFrame, parameters.frequency / 1000);
 
-// console.log(map.getStyle().layers);
-
 function animate(timestamp) {
   let pct = Math.abs(Math.sin(parameters.uTime * 0.0008));
 
@@ -322,15 +320,12 @@ document.querySelector('#list').addEventListener('click', (e) => {
   const format = renderer.capabilities.isWebGL2
     ? THREE.RedFormat
     : THREE.LuminanceFormat;
-  // console.log(analyser.data);
   parameters.tAudioData.value = new THREE.DataTexture(
     analyser.data,
     fftSize / 2,
     1,
     format
   );
-
-  console.log(parameters.tAudioData.value);
 });
 
 function loadAudio() {
@@ -348,6 +343,6 @@ function loadAudio() {
   };
 }
 
-map.on('click', (e) => {
-  console.log(e.lngLat.wrap(), map.getZoom(), map.getFreeCameraOptions());
-});
+// map.on('click', (e) => {
+//   console.log(e.lngLat.wrap(), map.getZoom(), map.getFreeCameraOptions());
+// });

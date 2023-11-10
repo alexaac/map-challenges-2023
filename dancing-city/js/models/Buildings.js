@@ -10,7 +10,6 @@ let running = false;
 
 export class Buildings {
   constructor(id, buildingsLayerId, buildingType, parameters) {
-    // console.log(id);
     this.id = id;
     this.parameters = parameters;
     this.buildingsLayerId = buildingsLayerId;
@@ -88,7 +87,6 @@ export class Buildings {
     gl.uniform1i(buildingsProgram.uWireframe, this.parameters.wireframe);
     gl.uniform1i(buildingsProgram.tAudioData, this.parameters.tAudioData.value);
     gl.uniform1f(buildingsProgram.tAudioFreq, this.parameters.tAudioFreq.value);
-    // console.log(this.parameters.tAudioFreq.value);
     gl.uniform1f(buildingsProgram.uOpacity, this.parameters.opacity);
     // Set the color to use
     gl.uniform3fv(
@@ -142,7 +140,6 @@ export class Buildings {
         utils.normalizeColor(this.parameters.interpolatedColor)
       );
 
-      // console.log(this.parameters.interpolatedColor);
       gl.uniform1f(buildingsProgram.uTime, this.parameters.uTime);
 
       // Turn on culling. By default backfacing triangles
@@ -167,7 +164,6 @@ export class Buildings {
       );
 
       for (const coord of coords) {
-        // console.log(transform.customLayerMatrix());
         const tile = this.source.getTile(coord);
         const bucket = tile.getBucket(buildingsLayer);
         if (!bucket) continue;
