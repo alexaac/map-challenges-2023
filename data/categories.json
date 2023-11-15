@@ -19,7 +19,26 @@
     "examples": [],
     "finished": true
   },
-
+  {
+    "name": "bouncing-city",
+    "title": "3. Polygons",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Bouncing City 🌆 ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "bad-in-europe",
+    "title": "4. A bad map",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Bad in Europe ",
+    "examples": [],
+    "finished": true
+  },
   {
     "title": "30 Day Map Challenge 2023",
     "type": "parent",
