@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#30DayMapChallenge 2023 Day 7. Navigation</title>
+
+    <meta
+      property="og:title"
+      content="#30DayMapChallenge 2023 Day 7. Navigation"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2023/gopro-telemetry"
+    />
+    <meta property="og:description" content="#30DayMapChallenge on Twitter" />
+    <meta property="article:publisher" content="https://maptheclouds.com" />
+    <meta property="article:section" content="Graphic" />
+    <meta property="article:tag" content="Graphic" />
+    <meta
+      property="og:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2023/gopro-telemetry/img/og_1504_968.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1504" />
+    <meta property="og:image:height" content="968" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://maptheclouds.com/playground/30-day-map-challenge-2023/gopro-telemetry/img/og_1504_968.png"
+    />
+    <meta property="twitter:site" content="@maptheclouds" />
+
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="nav--navigation">
+      <div class="nav--gridContainer">
+        <div class="nav--logo">
+          <h4>#30DayMapChallenge 2023</h4>
+          <div class="content--count">
+            <span>07</span>
+            <span style="background-color: rgb(58, 58, 64)"></span>
+            <span>30</span>
+          </div>
+        </div>
+        <div class="nav--navMenu" role="button" tabindex="0">
+          <h3>Day 7. Navigation</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="demoVideo">
+      <video
+        id="motoVideo"
+        height="400"
+        width="500"
+        class="demoVideo"
+        muted="true"
+        controls
+      >
+        <source
+          src="https://maptheclouds.com/data/small_race.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="main--contentWrapper no-pointer-events">
+      <div class="content--page" style="color: rgb(41, 22, 16)">
+        <div class="content--fixedPageContent">
+          <div class="content--gridContainer">
+            <div class="content--contentWrapper">
+              <h1>
+                <!-- <span>Race 🏍️</span><br /> -->
+                <span>Race</span><br />
+                <span>Tracker</span>
+              </h1>
+
+              <div class="content--subCopy">
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="below">
+      <div>
+        <strong>Data: </strong>
+        <a href="https://www.race-technology.com/us/gopro/example-videos"
+          >Race Technology</a
+        >,
+      </div>
+      <div>
+        <strong>Tool: </strong>
+        <a
+          href="https://medium.com/@jrballesteros/a-simple-guide-to-extract-gps-information-from-gopro-photos-and-videos-cf6edf6dc601"
+          >ExifTool</a
+        >
+      </div>
+      <!-- Music by QubeSounds from Pixabay -->
+      <div><strong>Graphic: </strong> @maptheclouds</div>
+    </div>
+
+    <script src="./js/d3.v5.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

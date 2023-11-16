@@ -40,6 +40,36 @@
     "finished": true
   },
   {
+    "name": "hand-drawn",
+    "title": "5. Analog map",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Hand drawn map ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "cherry-blossoms",
+    "title": "6. Asia",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Cherry Blossoms ",
+    "examples": [],
+    "finished": false
+  },
+  {
+    "name": "gopro-telemetry",
+    "title": "7. Navigation",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Race Tracker  🏍️ ",
+    "examples": [],
+    "finished": true
+  },
+  {
     "title": "30 Day Map Challenge 2023",
     "type": "parent",
     "name": "30-day-map-challenge-2023",
