@@ -303,7 +303,7 @@ p {
     width: 100%;
     position: fixed;
     right: 0;
-    top: -7%;
+    top: -10%;
     min-width: 100%;
     min-height: 100%;
   }
@@ -399,9 +399,9 @@ p {
   }
   .content--contentWrapper h1 {
     font-family: 'MonsterRacing', Helvetica, Arial, sans-serif;
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 28px;
   }
   .content--subCopy {
     margin: 40px 0 0;
@@ -415,7 +415,7 @@ p {
   #map {
     width: 90%;
     height: 200px;
-    bottom: 13%;
+    bottom: 15%;
   }
 
   .nav--logo h4 {
