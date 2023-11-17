@@ -299,6 +299,15 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
+  .demoVideo {
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: -7%;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
   .nav--gridContainer {
     width: 90.625%;
   }
@@ -386,11 +395,11 @@ p {
   }
   .content--contentWrapper {
     width: 100%;
-    top: 16%;
+    top: 10%;
   }
   .content--contentWrapper h1 {
     font-family: 'MonsterRacing', Helvetica, Arial, sans-serif;
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 600;
     line-height: 48px;
   }
@@ -400,6 +409,27 @@ p {
   .content--subCopy p {
     flex: 0 0 80%;
     margin: 24px 0 0;
+    font-size: 12px;
+  }
+
+  #map {
+    width: 90%;
+    height: 250px;
+    bottom: 5%;
+  }
+
+  .nav--logo h4 {
+    font-size: 12px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-size: 12px;
   }
 }
 
