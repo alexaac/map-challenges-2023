@@ -50,17 +50,17 @@
     "finished": true
   },
   {
-    "name": "cherry-blossoms",
+    "name": "sakura-bloom",
     "title": "6. Asia",
     "type": "child",
     "parent": "30-day-map-challenge-2023",
     "icon": "",
-    "description": " Cherry Blossoms ",
+    "description": " Sakura Bloom 💮 ",
     "examples": [],
     "finished": false
   },
   {
-    "name": "gopro-telemetry",
+    "name": "race-tracker",
     "title": "7. Navigation",
     "type": "child",
     "parent": "30-day-map-challenge-2023",
