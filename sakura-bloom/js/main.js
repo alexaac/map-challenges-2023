@@ -2,7 +2,7 @@ import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiYWxleGFhYyIsImEiOiJjbDhvZ242MWEwYmF2NDFydXQ0bWpqcnJwIn0.l7weC1uq7sZuuVqmByhYiA';
-
+const isMobile = window.innerWidth < 703;
 const parseTime = d3.timeParse('%Y/%m/%d');
 
 /**
@@ -68,13 +68,15 @@ const geojsonData = {
 };
 console.log(data, geojsonData.features[0]);
 
-const center = { lng: 137.52, lat: 36.21 };
+const center = isMobile
+  ? { lng: 136.5608817446124, lat: 41.13835015674274 }
+  : { lng: 137.52, lat: 36.21 };
 
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/alexaac/clp2wjlso01jq01o46gjy04kf',
   center: center,
-  zoom: 4.8,
+  zoom: isMobile ? 3.8 : 4.8,
   antialias: true,
   projection: 'equirectangular',
 });

@@ -309,6 +309,7 @@ p {
   }
   .content--contentWrapper {
     width: 48.27586%;
+    top: 15%;
   }
   .content--contentWrapper h1 {
     font-family: 'Takoyaki', Helvetica, Arial, sans-serif;
