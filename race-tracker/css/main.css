@@ -298,14 +298,37 @@ p {
   padding: 12px 0 0;
 }
 
+.below {
+  color: #5a5757;
+  /* text-shadow: 0 2px 0 #fff, 2px 0 0 #fff, 0 -2px 0 rgb(148, 139, 139),
+    -2px 0 0 #fff; */
+  bottom: 45px;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 1024px) {
   .demoVideo {
-    width: 100%;
-    position: fixed;
+    width: 100vw;
+    position: absolute;
     right: 0;
-    top: -10%;
+    bottom: 35px;
+    /* top: 0; */
     min-width: 100%;
     min-height: 100%;
+    height: 90vh;
+    left: 0;
+  }
+
+  #map {
+    left: 2vw;
+    bottom: 17%;
+    width: 96vw;
+    height: 250px;
+  }
+
+  .below {
+    bottom: 15px;
+    font-size: 10px;
   }
 
   .nav--gridContainer {
@@ -322,6 +345,7 @@ p {
     width: 90.625%;
   }
   .content--contentWrapper {
+    top: 6%;
     width: 48.27586%;
   }
   .content--contentWrapper h1 {
@@ -358,7 +382,7 @@ p {
   }
   .content--contentWrapper {
     width: 52.38095%;
-    top: 15%;
+    top: 6%;
     /* background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 1),
@@ -367,7 +391,7 @@ p {
   }
   .content--contentWrapper h1 {
     font-family: 'MonsterRacing', Helvetica, Arial, sans-serif;
-    font-size: 64px;
+    font-size: 44px;
     font-weight: 600;
     line-height: 56px;
   }
@@ -413,9 +437,15 @@ p {
   }
 
   #map {
-    width: 90%;
-    height: 200px;
+    left: 2vw;
     bottom: 15%;
+    width: 96vw;
+    height: 200px;
+  }
+
+  .below {
+    bottom: 15px;
+    font-size: 10px;
   }
 
   .nav--logo h4 {
@@ -481,13 +511,4 @@ body {
 
 .side-pannel {
   top: 0;
-}
-
-.below {
-  font-size: 18px;
-  color: #5a5757;
-  /* text-shadow: 0 2px 0 #fff, 2px 0 0 #fff, 0 -2px 0 rgb(148, 139, 139),
-    -2px 0 0 #fff; */
-  bottom: 45px;
-  font-size: 12px;
 }

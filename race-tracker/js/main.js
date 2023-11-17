@@ -4,6 +4,8 @@ const apiKey = 'wSVUkjoWKTD8fUSyzJd5';
 mapboxgl.accessToken =
   'pk.eyJ1IjoiYWxleGFhYyIsImEiOiJja3o1OGdrcWUwZGN2MnRwa2xsa2pqNTI3In0.RenxXCa3uR7D7-tdvoYKGw';
 
+const isMobile = window.innerWidth < 703;
+
 /**
  * @description Fetch data
  * @param {string} url - file
@@ -24,7 +26,7 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v10',
   center: center,
-  zoom: 14.2,
+  zoom: isMobile ? 13 : 14.2,
   antialias: true,
 });
 
