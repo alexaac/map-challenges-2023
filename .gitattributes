@@ -114,3 +114,4 @@ Gemfile diff=ruby
 
 # Models
 *.glb   binary
+*.hdr binary
