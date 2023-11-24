@@ -70,6 +70,76 @@
     "finished": true
   },
   {
+    "name": "africa",
+    "title": "8. Africa",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Africa ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "lowpoly-ro",
+    "title": "9. Hexagons",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Low poly Romania ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "disco-earth",
+    "title": "11. Retro",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Disco Earth ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "land-temp",
+    "title": "13. Choropleth",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Land Surface Temperature (Day) ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "air-distance",
+    "title": "17. Flow",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Air Distance in Germany ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "night-lights",
+    "title": "21. Raster",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Night Lights ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "moon",
+    "title": "24. Black and White",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Moon ",
+    "examples": [],
+    "finished": true
+  },
+  {
     "title": "30 Day Map Challenge 2023",
     "type": "parent",
     "name": "30-day-map-challenge-2023",
