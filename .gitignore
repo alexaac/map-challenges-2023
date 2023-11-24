@@ -193,3 +193,5 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 .fuse_hidden*
+
+*.hdr

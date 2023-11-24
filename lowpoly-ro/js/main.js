@@ -60,10 +60,6 @@ loadingManager.onError = (err) => {
 
 const textureLoader = new THREE.TextureLoader(loadingManager);
 
-const bakedTexture = textureLoader.load('./assets/models/portal/baked.jpg');
-bakedTexture.flipY = false;
-bakedTexture.encoding = THREE.sRGBEncoding;
-
 let textures = {
   dirt: await textureLoader.loadAsync('./assets/textures/dirt.png'),
   dirt2: await textureLoader.loadAsync('./assets/textures/dirt2.jpg'),
