@@ -176,7 +176,7 @@ const getCubeMapTexture = (path, format) => {
   }
 };
 
-const path2 = './assets/environments/envmap.hdr';
+// const path2 = './assets/environments/envmap.hdr';
 
 getCubeMapTexture(path2, '.hdr').then((envmap) => {
   envmap.encoding = THREE.sRGBEncoding;
