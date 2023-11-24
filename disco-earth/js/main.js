@@ -2,7 +2,7 @@
 
 import * as THREE from '../../js/three/build/three.module.js';
 import { OrbitControls } from '../../js/three/OrbitControls.js';
-import * as BufferGeometryUtils from './BufferGeometryUtils.js';
+import * as BufferGeometryUtils from '../../js/three/BufferGeometryUtils.js';
 
 /** Constants */
 
