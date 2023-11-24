@@ -17,7 +17,7 @@ let bloomComposer, renderer;
 const globalUniforms = {
   exposure: 0.9,
   bloomThreshold: 0,
-  bloomStrength: 5,
+  bloomStrength: 3,
   bloomRadius: 1,
 };
 

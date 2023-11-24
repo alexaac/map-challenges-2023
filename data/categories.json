@@ -140,6 +140,16 @@
     "finished": true
   },
   {
+    "name": "dots",
+    "title": "27. Dot",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Dots ",
+    "examples": [],
+    "finished": true
+  },
+  {
     "title": "30 Day Map Challenge 2023",
     "type": "parent",
     "name": "30-day-map-challenge-2023",
