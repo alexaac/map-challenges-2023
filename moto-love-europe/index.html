@@ -1,0 +1,18 @@
+<!doctype html><head><meta content="text/html;charset=utf-8" http-equiv="Content-Type"/><meta charset="UTF-8"/><meta content="utf-8" http-equiv="encoding"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>#30DayMapChallenge 2022 Day 17. A map without a computer</title><meta property="og:title" content="#30DayMapChallenge 2022 Day 17. A map without a computer"/><meta property="og:type" content="article"/><meta property="og:url" content="https://maptheclouds.com/playground/30-day-map-challenge-2022/sculpted-gifts"/><meta property="og:description" content="#30DayMapChallenge on Twitter"/><meta property="article:publisher" content="https://maptheclouds.com"/><meta property="article:section" content="Graphic"/><meta property="article:tag" content="Graphic"/><meta property="og:image" content="https://maptheclouds.com/playground/30-day-map-challenge-2022/sculpted-gifts/img/og_1400_900.png"/><meta property="og:image:type" content="image/png"/><meta property="og:image:width" content="1400"/><meta property="og:image:height" content="900"/><meta property="twitter:card" content="summary_large_image"/><meta property="twitter:image" content="https://maptheclouds.com/playground/30-day-map-challenge-2022/sculpted-gifts/img/og_1400_900.png"/><meta property="twitter:site" content="@maptheclouds"/><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script defer="defer" src="bundle.036296d646712545.js"></script><link href="main.css" rel="stylesheet"></head><body><canvas class="webgl grabbable" id="webgl"></canvas><div class="triggers"><span data-disabled="true">Map</span> <span data-disabled="true">Moto</span></div><script type="x-shader/x-vertex" id="vertexshader">varying vec2 vUv;
+
+      void main() {
+
+        vUv = uv;
+
+        gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+
+      }</script><script type="x-shader/x-fragment" id="fragmentshader">uniform sampler2D baseTexture;
+      uniform sampler2D bloomTexture;
+
+      varying vec2 vUv;
+
+      void main() {
+
+        gl_FragColor = ( texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
+
+      }</script></body>
