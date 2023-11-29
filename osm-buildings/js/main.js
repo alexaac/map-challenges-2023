@@ -4,8 +4,6 @@ const width = 20,
 
 const center = [18.419, -33.916];
 
-const apiKey = 'wSVUkjoWKTD8fUSyzJd5';
-
 // Define the map syle (OpenStreetMap raster tiles)
 let selectedStyle = {
   version: 8,
