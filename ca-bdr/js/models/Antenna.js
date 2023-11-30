@@ -125,7 +125,7 @@ export class Antenna {
     loader.load(this.options.obj, function (gltf) {
       const truck = gltf.scene;
 
-      console.log(truck);
+      // console.log(truck);
       truck.material = new THREE.MeshBasicMaterial({ color: 0xffffff });
       scene.add(truck);
 

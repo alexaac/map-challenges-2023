@@ -362,26 +362,26 @@ map.on('load', async () => {
     map.addLayer(antenna);
     const truck = antenna.getTruck();
     // console.log(truck);
-    /**
-     * Rotate camera
-     */
-    // The total animation duration, in milliseconds
-    const animationDuration = coordinates.length * 20;
-    let start;
-    function frame(time) {
-      if (!start) start = time;
-      const animationPhase = (time - start) / animationDuration;
-      if (animationPhase > 1) {
-        return;
-      }
+    // /**
+    //  * Rotate camera
+    //  */
+    // // The total animation duration, in milliseconds
+    // const animationDuration = coordinates.length * 20;
+    // let start;
+    // function frame(time) {
+    //   if (!start) start = time;
+    //   const animationPhase = (time - start) / animationDuration;
+    //   if (animationPhase > 1) {
+    //     return;
+    //   }
 
-      // Rotate the camera at a slightly lower speed to give some parallax effect in the background
-      const rotation = 150 - animationPhase * 40.0;
-      map.setBearing(rotation % 360);
+    //   // Rotate the camera at a slightly lower speed to give some parallax effect in the background
+    //   const rotation = 150 - animationPhase * 40.0;
+    //   map.setBearing(rotation % 360);
 
-      window.requestAnimationFrame(frame);
-    }
-    window.requestAnimationFrame(frame);
+    //   window.requestAnimationFrame(frame);
+    // }
+    // window.requestAnimationFrame(frame);
 
     /**
      * Add points to route
