@@ -1,0 +1,299 @@
+[
+  {
+    "name": "color-splash",
+    "title": "1. Points",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Color Splash 🎨 ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "neon-streets",
+    "title": "2. Lines",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Neon Streets 🔹 ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "bouncing-city",
+    "title": "3. Polygons",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Bouncing City 🌆 ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "bad-in-europe",
+    "title": "4. A bad map",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Bad in Europe ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "hand-drawn",
+    "title": "5. Analog map",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Hand drawn map ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "sakura-bloom",
+    "title": "6. Asia",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Sakura Bloom 💮 ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "race-tracker",
+    "title": "7. Navigation",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Race Tracker  🏍️ ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "africa",
+    "title": "8. Africa",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Africa ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "lowpoly-ro",
+    "title": "9. Hexagons",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Low poly Romania ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "na-blue",
+    "title": "10. North America",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " A section of Glen Canyon (Utah and Arizona) ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "disco-earth",
+    "title": "11. Retro",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Disco Earth ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "sa-rivers",
+    "title": "12. South America",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Rivers ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "land-temp",
+    "title": "13. Choropleth",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Land Surface Temperature (Day) ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "moto-love-europe",
+    "title": "14. Europe",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Moto Love Europe ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "osm-buildings",
+    "title": "15. OpenStreetMap",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " OSM Buildings - tiles with D3 ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "oceania",
+    "title": "16. Oceania",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Oceania ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "air-distance",
+    "title": "17. Flow",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Air Distance in Germany ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "atmosphere",
+    "title": "18. Atmosphere",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Atmosphere ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "selisia",
+    "title": "19. 5 Minutes Map",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Selisia ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "ca-bdr",
+    "title": "20. Outdoors",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Southern California BDR ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "night-lights",
+    "title": "21. Raster",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Night Lights ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "arctic-ocean",
+    "title": "22. North is not always up",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Arctic Ocean ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "north-cube",
+    "title": "23. 3D",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " North Cube ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "moon",
+    "title": "24. Black and White",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Moon ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "antarctica-gravity",
+    "title": "25. Antarctica",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " EIGEN-6C4 Gravity disturbance (0.1deg) ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "minimal",
+    "title": "26. Minimal",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " EIGEN-6C4 Gravity disturbance (0.1deg) ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "dots",
+    "title": "27. Dot",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Dots ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "demers-cartogram",
+    "title": "28. Is this a chart or a map?",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Demers Cartogram ",
+    "examples": [],
+    "finished": true
+  },
+  {
+    "name": "ro-mosaic",
+    "title": "29. Population",
+    "type": "child",
+    "parent": "30-day-map-challenge-2023",
+    "icon": "",
+    "description": " Population mosaic of Europe, 2021 A.D. ",
+    "examples": [],
+    "finished": true
+  },
+
+  {
+    "title": "30 Day Map Challenge 2023",
+    "type": "parent",
+    "name": "30-day-map-challenge-2023",
+    "description": " 2023 "
+  }
+]
