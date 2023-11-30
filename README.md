@@ -8,11 +8,11 @@ Do not use in production :D
 
 ### Video
 
-https://maptheclouds.com/playground/30-day-map-challenge-2023/meta/img/mapchall_2023.mp4
+https://maptheclouds.com/playground/30-day-map-challenge-2023/my-favorite-map-challenge/img/demo.mp4
 
 ### Gallery
 
-https://maptheclouds.com/playground/30-day-map-challenge-2023/meta/
+https://maptheclouds.com/playground/30-day-map-challenge-2023/my-favorite-map-challenge/
 
 ### Interactive
 
