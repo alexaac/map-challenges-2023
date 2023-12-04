@@ -40,7 +40,7 @@ loadingManager.onError = (err) => {
 const textureLoader = new THREE.TextureLoader(loadingManager);
 
 const texture1 = textureLoader.load(
-  '../../assets/textures/color_etopo1_ice_low_flip.jpg'
+  '../assets/textures/color_etopo1_ice_low_flip.jpg'
 );
 
 texture1.mapping = THREE.EquirectangularReflectionMapping;
